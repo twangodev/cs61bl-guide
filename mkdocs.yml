@@ -2,6 +2,7 @@ site_name: CS61BL Guide
 
 repo_name: twangodev/cs61bl-guide
 repo_url: https://github.com/twangodev/cs61bl-guide
+edit_uri: edit/main/docs/
 
 
 theme:
