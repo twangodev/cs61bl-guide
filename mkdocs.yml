@@ -5,7 +5,7 @@ repo_url: https://github.com/twangodev/cs61bl-guide
 edit_uri: edit/main/docs/
 
 site_url: https://cs61bl.twango.dev/
-site_description: A guide for CS61BL students
+site_description: A handy guide and reference for CS61BL students.
 
 theme:
   name: material
