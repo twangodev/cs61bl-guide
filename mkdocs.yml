@@ -7,6 +7,15 @@ edit_uri: edit/main/docs/
 site_url: https://cs61bl.twango.dev/
 site_description: A handy guide and reference for CS61BL students.
 
+nav:
+  - Conceptuals:
+    - Hashing: conceptuals/hashing.md
+    - Persistence: conceptuals/persistence.md
+  - Data Structures:
+    - Trees:
+      - Binary Trees: data-structures/trees/binary-trees.md
+      - Binary Search Trees: data-structures/trees/binary-search-trees.md
+
 theme:
   name: material
   logo: assets/cs61bl.png
