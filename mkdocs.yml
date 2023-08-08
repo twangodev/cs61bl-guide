@@ -15,6 +15,7 @@ nav:
     - Trees:
       - Binary Trees: data-structures/trees/binary-trees.md
       - Binary Search Trees: data-structures/trees/binary-search-trees.md
+      - Left Leaning Red Black Trees: data-structures/trees/left-leaning-red-black-trees.md
 
 theme:
   name: material
@@ -47,7 +48,7 @@ plugins:
   - search
   - glightbox
   - offline
-  - social
+#  - social
 
 markdown_extensions:
   - abbr
