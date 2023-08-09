@@ -1,17 +1,9 @@
-# Welcome to MkDocs
+# Welcome to CS61BL Guide
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This guide takes material from [cs61bl.org](https://cs61bl.org) and organizes it in a more approachable/straightforward manner. 
 
-## Commands
+It is not meant to replace the official website, but rather to supplement it.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+If you found this guide helpful, please consider starring the [GitHub repository](https://github.com/twangodev/cs61bl-guide) and sharing it with others.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+If you request any information is incorrect, missing, or removed, please submit a pull request or open an issue.
