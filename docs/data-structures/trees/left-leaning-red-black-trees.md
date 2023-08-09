@@ -28,6 +28,8 @@ def search(root, key):
     return search(root.right, key)
 ```
 
+The overall runtime of searching for a key $K$ of size $N$ in a 2-3 tree is $O(\log N)$
+
 ### Insertion
 When inserting a key $K$ into a 2-3 tree, we first identify which node $N$ and parent $P$ to insert $K$ into.
 
@@ -73,11 +75,15 @@ should be our parent $P$ having keys $P_{K_1}$, $P_{K_2}$ and nodes $N_1$, $N_3$
 
 
 #### Push Up Insertion (Double-Keyed Parent)
-If $N$ already has two keys, $K_1$, $K_2$ and $P$ has one key $P_K$, we need to temporarily overstuff $N$ by inserting $K$ into $N$. This
+If $N$ already has two keys, $K_1$, $K_2$ and $P$ has two keys $P_{K_1}$, $P_{K_2}$, we need to temporarily overstuff $N$ by inserting $K$ into $N$. This
 will result in $N$ having three keys, $K_1$, $K_2$, and $K_3$
 
+Next, we push $K_2$ into our parent node $P$. This will result in $P$ not only being overstuffed, but also containing 4 children.
+
+Next, we split our overstuffed $P$ node - essentially destroying the node and creating individual nodes $N_1$, $N_2$, $N_3$ for each of its keys $P_{K_1}$, $P_{K_2}$, $P_{K_3}$. This leaves us with $N_1$ and $N_3$ as our left and right nodes, respectively, and $N_2$ as our center node. It's children follow $N_1$ and $N_3$'s accordingly.
 
 #### Insertion Summary
+The result gives us an insertion which takes $O(\log N)$ time, where $N$ is the number of nodes in the tree.
 
 ## Left Leaning Red Black Trees
 
