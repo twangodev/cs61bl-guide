@@ -6,4 +6,4 @@ It is not meant to replace the official website, but rather to supplement it.
 
 If you found this guide helpful, please consider starring the [GitHub repository](https://github.com/twangodev/cs61bl-guide) and sharing it with others.
 
-If you request any information is incorrect, missing, or removed, please submit a pull request or open an issue.
+If you notice that any information is incorrect, missing, or removed, please submit a pull request or open an issue.
