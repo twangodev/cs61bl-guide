@@ -8,6 +8,7 @@ site_url: https://cs61bl.twango.dev/
 site_description: A handy guide and reference for CS61BL students.
 
 nav:
+  - Home: index.md
   - Exam Preparation:
     - Topical Resources: exam-prep/topical-resources.md
   - Conceptuals:
