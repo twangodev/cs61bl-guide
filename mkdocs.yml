@@ -11,9 +11,13 @@ nav:
   - Home: index.md
   - Exam Preparation:
     - Topical Resources: exam-prep/topical-resources.md
-  - Conceptuals:
-    - Hashing: conceptuals/hashing.md
-    - Persistence: conceptuals/persistence.md
+  - Concepts:
+    - Object Oriented Programming:
+      - Inheritance: concepts/oop/inheritance.md
+      - Dynamic Method Selection: concepts/oop/dynamic-method-selection.md
+    - Hashing: concepts/hashing.md
+    - Persistence: concepts/persistence.md
+
   - Data Structures:
     - Trees:
       - Binary Trees: data-structures/trees/binary-trees.md
@@ -79,6 +83,10 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+
 
 extra_javascript:
   - javascripts/katex.js

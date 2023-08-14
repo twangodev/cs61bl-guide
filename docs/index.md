@@ -1,7 +1,7 @@
 # Welcome to CS61BL Guide
 
-This guide takes material from [cs61bl.org](https://cs61bl.org) and organizes it in a more approachable and 
-straightforward manner, with emphasis on topics that caused the most amount of confusion.
+This guide takes material from [cs61bl.org](https://cs61bl.org) and selects the most confusing yet commonly tested 
+aspects of the course.
 
 !!! warning "Disclaimer"
     This guide is not updated, endorsed, or approved by the CS61B/CS61BL staff. Content may be outdated or incorrect. 
