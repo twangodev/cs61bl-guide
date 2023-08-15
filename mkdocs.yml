@@ -23,6 +23,8 @@ nav:
       - Binary Trees: data-structures/trees/binary-trees.md
       - Binary Search Trees: data-structures/trees/binary-search-trees.md
       - Left Leaning Red Black Trees: data-structures/trees/left-leaning-red-black-trees.md
+  - Sorting:
+      - Insertion Sort: sorting/insertion-sort.md
 
 theme:
   name: material
